@@ -10,12 +10,16 @@ You can also include images in this folder and reference them in the markdown. E
 ## How it works
 
 Explain how your project works
+There will be two 4-bit inputs that represents the binary factors and an 8-bit output for the product. With the use of Full Adders, it combines the partial products and produces the final binary multiplication result. 
 
 ## How to test
 
 Explain how to use your project
+To test this project, there are two inputs. You would set one of them to a negative in 2's complement form, in binary. You would then multiply both these inputs in binary and should have a signed integer that accurately represents the multiplication.
 
 ## External hardware
 
 List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+N/A
+
 N/A
