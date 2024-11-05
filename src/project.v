@@ -53,7 +53,7 @@ module tt_um_b_0_array_multiplier (
   assign uio_out = 0;
   assign uio_oe  = 0;
   // List all unused inputs to prevent warnings
-  wire _unused = &{ena, clk, rst_n, uio_oe 1'b0};
+  wire _unused = &{ena, clk, rst_n, uio_oe, 1'b0};
 
 endmodule
 
